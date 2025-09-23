@@ -737,8 +737,10 @@ secrets:
   #   monitor: insecure-monitor-password
   #   proxyadmin: insecure-proxyadmin-password
   #   pmmserver: insecure-pmmserver-password
+  #   # If pmmservertoken is set in that case pmmserver pass will not be included
+  #   # pmmservertoken: set-pmmserver-api-key for PMM3
   #   # If pmmserverkey is set in that case pmmserver pass will not be included
-  #   # pmmserverkey: set-pmmserver-api-key
+  #   # pmmserverkey: set-pmmserver-api-key for PMM2
   #   operator: insecure-operator-password
   #   replication: insecure-replication-password
   ## If you are using `cert-manager` you can skip this next section.
